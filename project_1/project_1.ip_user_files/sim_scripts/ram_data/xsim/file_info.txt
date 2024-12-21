@@ -1,0 +1,2 @@
+ram_data.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/ram_data/sim/ram_data.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

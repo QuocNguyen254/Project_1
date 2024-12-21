@@ -1,0 +1,50 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.gen/sources_1/ip/ram_data_fc64_0/sim/ram_data_fc64_0.v" \
+"../../../../project_1.gen/sources_1/ip/ram_data_fc64_1/sim/ram_data_fc64_1.v" \
+"../../../../project_1.gen/sources_1/ip/ram_data_fc64_2/sim/ram_data_fc64_2.v" \
+"../../../../project_1.gen/sources_1/ip/ram_data_fc64_3/sim/ram_data_fc64_3.v" \
+"../../../../project_1.gen/sources_1/ip/rom_weight_fc64_0/sim/rom_weight_fc64_0.v" \
+"../../../../project_1.gen/sources_1/ip/rom_weight_fc64_1/sim/rom_weight_fc64_1.v" \
+"../../../../project_1.gen/sources_1/ip/rom_weight_fc64_2/sim/rom_weight_fc64_2.v" \
+"../../../../project_1.gen/sources_1/ip/rom_weight_fc64_3/sim/rom_weight_fc64_3.v" \
+"../../../../project_1.gen/sources_1/ip/rom_bias_fc64/sim/rom_bias_fc64.v" \
+
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/process_unit.sv" \
+"../../../../project_1.srcs/sources_1/new/relu_act.sv" \
+"../../../../project_1.srcs/sources_1/new/buffer_group.sv" \
+"../../../../project_1.srcs/sources_1/new/Datapath.sv" \
+"../../../../project_1.srcs/sources_1/new/single_adder.sv" \
+"../../../../project_1.srcs/sources_1/new/adder_tree_D.sv" \
+
+verilog xil_defaultlib  \
+"../../../../project_1.gen/sources_1/bd/TaiLieu/sim/multiply.v" \
+
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/imports/TaiLieu/fxp_multiplier.sv" \
+"../../../../project_1.srcs/sources_1/new/adder.sv" \
+
+verilog xil_defaultlib  \
+"../../../../project_1.gen/sources_1/bd/TaiLieu/hdl/multiply_wrapper.v" \
+
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/controller.sv" \
+"../../../../project_1.srcs/sources_1/new/top_design.sv" \
+"../../../../project_1.srcs/sources_1/new/adder_tree_16.sv" \
+"../../../../project_1.srcs/sources_1/new/pu_array.sv" \
+"../../../../select_max.sv" \
+"../../../../project_1.srcs/sim_1/new/fxp_multiplier_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/PU_array_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/process_unit_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/datapath_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/tb_test_mem_16in_16bit.sv" \
+"../../../../project_1.srcs/sim_1/new/controller_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/top_design_tb.sv" \
+"../../../../project_1.srcs/sim_1/new/adder_tree_16_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
