@@ -1,0 +1,10 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../Vivado2024.1/Vivado/2024.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../Vivado2024.1/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../Vivado2024.1/Vivado/2024.1/data/ip/xpm/xpm_VCOMP.vhd,
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_13,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/multiply/ipshared/24e7/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+xbip_pipe_v3_0_vh_rfs.vhd,vhdl,xbip_pipe_v3_0_9,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/multiply/ipshared/713b/hdl/xbip_pipe_v3_0_vh_rfs.vhd,
+xbip_bram18k_v3_0_vh_rfs.vhd,vhdl,xbip_bram18k_v3_0_9,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/multiply/ipshared/cd0f/hdl/xbip_bram18k_v3_0_vh_rfs.vhd,
+mult_gen_v12_0_vh_rfs.vhd,vhdl,mult_gen_v12_0_21,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/multiply/ipshared/f2b8/hdl/mult_gen_v12_0_vh_rfs.vhd,
+multiply_mult_gen_0_0.vhd,vhdl,xil_defaultlib,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/TaiLieu/ip/multiply_mult_gen_0_0/sim/multiply_mult_gen_0_0.vhd,
+multiply.v,verilog,xil_defaultlib,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/TaiLieu/sim/multiply.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Dec 29 16:35:02 2024
+# Process ID: 7420
+# Current directory: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.runs/impl_1
+# Command line: vivado.exe -log Fully_connected_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Fully_connected_wrapper.tcl -notrace
+# Log file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.runs/impl_1/Fully_connected_wrapper.vdi
+# Journal file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-AF4K6S1
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Pentium(R) CPU G4560 @ 3.50GHz
+# CPU Frequency     :3504 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8482 MB
+# Swap memory       :16069 MB
+# Total Virtual     :24552 MB
+# Available Virtual :13848 MB
+#-----------------------------------------------------------
+source Fully_connected_wrapper.tcl -notrace

@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/Fully_connected/ip/Fully_connected_Fully_Connected_1_0_0/7b18/sim/multiply_mult_gen_0_0.vhd" \
+"../../../bd/Fully_connected/ip/Fully_connected_axi_bram_ctrl_0_0/sim/Fully_connected_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/Fully_connected/ip/Fully_connected_axi_smc_0/bd_0/ip/ip_1/sim/bd_4378_psr_aclk_0.vhd" \
+"../../../bd/Fully_connected/ip/Fully_connected_rst_ps8_0_99M_0/sim/Fully_connected_rst_ps8_0_99M_0.vhd" \
+
+# Do not sort compile order
+nosort

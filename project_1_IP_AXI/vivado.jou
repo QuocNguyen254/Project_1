@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Dec 29 16:10:53 2024
+# Process ID: 7648
+# Current directory: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26648 E:\TestVerilog\Test_DOAN1\project_1_IP_AXI\project_1_IP_AXI.xpr
+# Log file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/vivado.log
+# Journal file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI\vivado.jou
+# Running On        :DESKTOP-AF4K6S1
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Pentium(R) CPU G4560 @ 3.50GHz
+# CPU Frequency     :3504 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8482 MB
+# Swap memory       :16069 MB
+# Total Virtual     :24552 MB
+# Available Virtual :12188 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

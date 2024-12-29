@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Dec 28 18:11:56 2024
+# Process ID: 18684
+# Current directory: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16224 E:\TestVerilog\Test_DOAN1\project_1_IP_AXI\project_1_IP_AXI.xpr
+# Log file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/vivado.log
+# Journal file: E:/TestVerilog/Test_DOAN1/project_1_IP_AXI\vivado.jou
+# Running On        :DESKTOP-AF4K6S1
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Pentium(R) CPU G4560 @ 3.50GHz
+# CPU Frequency     :3504 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8482 MB
+# Swap memory       :16073 MB
+# Total Virtual     :24556 MB
+# Available Virtual :13631 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.xpr
+update_compile_order -fileset sources_1
+read_xdc Fully_Connected_1_zynq_ultra_ps_e_0_1.xdc
+read_xdc Fully_Connected_1_zynq_ultra_ps_0_1.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_0.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_1.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_2.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_3.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_bias_fc64.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_0.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_1.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_2.coe] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_3.coe] -no_script -reset -force -quiet
+remove_files  {e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_0.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_1.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_2.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/ram_data_fc64_3.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_bias_fc64.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_0.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_1.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_2.coe e:/TestVerilog/Test_DOAN1/project_1_IP_AXI/project_1_IP_AXI.gen/sources_1/bd/Fully_Connected/ip/Fully_Connected_Fully_Connected_1_0_0/rom_weight_fc64_3.coe}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/bd/TaiLieu/ip/multiply_mult_gen_0_0/sim/multiply_mult_gen_0_0.vhd" \
+
+# Do not sort compile order
+nosort

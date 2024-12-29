@@ -1,0 +1,2 @@
+rom_bias_fc64.v,verilog,xil_defaultlib,../../../../edit_Fully_Connected_1_v1_0.gen/sources_1/ip/rom_bias_fc64/sim/rom_bias_fc64.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
